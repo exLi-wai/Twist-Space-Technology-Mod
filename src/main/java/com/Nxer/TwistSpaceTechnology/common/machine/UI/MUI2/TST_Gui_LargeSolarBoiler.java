@@ -1,5 +1,9 @@
 package com.Nxer.TwistSpaceTechnology.common.machine.UI.MUI2;
 
+import static com.gtnewhorizon.gtnhlib.util.numberformatting.NumberFormatUtil.formatNumber;
+
+import net.minecraft.util.StatCollector;
+
 import com.Nxer.TwistSpaceTechnology.common.machine.GeneratorMultis.TST_LargeSolarBoiler;
 import com.Nxer.TwistSpaceTechnology.util.TextEnums;
 import com.cleanroommc.modularui.api.drawable.IKey;
@@ -11,12 +15,8 @@ import com.cleanroommc.modularui.value.sync.PanelSyncManager;
 import com.cleanroommc.modularui.widgets.ButtonWidget;
 import com.cleanroommc.modularui.widgets.ListWidget;
 import com.cleanroommc.modularui.widgets.layout.Flow;
-import com.gtnewhorizons.modularui.api.NumberFormatMUI;
-import gregtech.api.modularui2.GTGuiTextures;
-import net.minecraft.util.EnumChatFormatting;
-import net.minecraft.util.StatCollector;
 
-import static com.gtnewhorizon.gtnhlib.util.numberformatting.NumberFormatUtil.formatNumber;
+import gregtech.api.modularui2.GTGuiTextures;
 
 public class TST_Gui_LargeSolarBoiler extends TST_Gui<TST_LargeSolarBoiler> {
     public TST_Gui_LargeSolarBoiler(TST_LargeSolarBoiler multiblock) {
